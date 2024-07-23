@@ -1,0 +1,17 @@
+.joinClub {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #E5BE67;
+    padding: 46px;
+    font-size: 30px;
+    gap: 32px;
+    .joinClubLeft{
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        width: 268px;
+        height: 65px;
+        background-color: #fff;
+    }
+}

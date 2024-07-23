@@ -1,0 +1,11 @@
+.clouthes{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    padding-bottom: 30px;
+    .col{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+}
