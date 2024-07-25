@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/nike/static/css/main.311e2eaa.css",
+    "main.js": "/nike/static/js/main.e4338409.js",
+    "static/js/453.993e129c.chunk.js": "/nike/static/js/453.993e129c.chunk.js",
+    "static/media/jordan-high-UNC.png": "/nike/static/media/jordan-high-UNC.6ea4380754aec0679c70.png",
+    "static/media/thirdWll.png": "/nike/static/media/thirdWll.ea8dcca8ec8e5356c42a.png",
+    "static/media/air-jordan-paris.png": "/nike/static/media/air-jordan-paris.78b5d205e8ba0f61ef02.png",
+    "static/media/blue-wallpaper.jpg": "/nike/static/media/blue-wallpaper.df825301163e7274b869.jpg",
+    "static/media/Image-Nike.png": "/nike/static/media/Image-Nike.a17826e12f77e4029e3e.png",
+    "static/media/top.png": "/nike/static/media/top.4aaa53888f10f7ac2e8f.png",
+    "static/media/air-jordan-4-black.png": "/nike/static/media/air-jordan-4-black.0aa6e00094846f4c35e2.png",
+    "static/media/Cover.png": "/nike/static/media/Cover.0a5d0a49cdaa47674069.png",
+    "static/media/Mens.png": "/nike/static/media/Mens.f3d1b3272e6c3e165ba6.png",
+    "static/media/Womens.png": "/nike/static/media/Womens.0efb4cde173e3074e9b8.png",
+    "static/media/Kids.png": "/nike/static/media/Kids.5940ec2b04b5633dc76f.png",
+    "static/media/basketball.png": "/nike/static/media/basketball.74068b5f904a82d30893.png",
+    "static/media/fourWll.jpg": "/nike/static/media/fourWll.4a49fd40123ecde5a944.jpg",
+    "static/media/jordan-dark-mocha.webp": "/nike/static/media/jordan-dark-mocha.14f0c9dccef91812d685.webp",
+    "static/media/jordan-high.png": "/nike/static/media/jordan-high.7013f300c8b5b268cc42.png",
+    "static/media/air-jordan-blue.png": "/nike/static/media/air-jordan-blue.c1f5b3ca90db87d0251e.png",
+    "static/media/air-jordan-4-retro-military-black.png": "/nike/static/media/air-jordan-4-retro-military-black.82b4a2514896ae6daf8e.png",
+    "static/media/tennis.png": "/nike/static/media/tennis.5cb560ba8473123a38ad.png",
+    "static/media/footbal.png": "/nike/static/media/footbal.2c60ffb55d2eff6ceab7.png",
+    "static/media/air-jordan-smoke-grey.png": "/nike/static/media/air-jordan-smoke-grey.9c74a391e189b70c1770.png",
+    "static/media/air-jordan-atmosphere.png": "/nike/static/media/air-jordan-atmosphere.de0fa1570a62c74fd4a6.png",
+    "static/media/air-jordan-4-midnight-navy.png": "/nike/static/media/air-jordan-4-midnight-navy.a57127eca439b967f586.png",
+    "static/media/nike-dunk-gray.png": "/nike/static/media/nike-dunk-gray.d133b06301ee62a69936.png",
+    "static/media/nike-dunk-green.png": "/nike/static/media/nike-dunk-green.60da4467fab04ec2a976.png",
+    "static/media/dunk-low-shoes.png": "/nike/static/media/dunk-low-shoes.a0330bbad4a7772b6677.png",
+    "static/media/dunk-low-retro.png": "/nike/static/media/dunk-low-retro.2947f7fcdc7bbc05f4e7.png",
+    "static/media/nike-dunk-white.png": "/nike/static/media/nike-dunk-white.2cc481f7b2c249a9fc97.png",
+    "index.html": "/nike/index.html",
+    "main.311e2eaa.css.map": "/nike/static/css/main.311e2eaa.css.map",
+    "main.e4338409.js.map": "/nike/static/js/main.e4338409.js.map",
+    "453.993e129c.chunk.js.map": "/nike/static/js/453.993e129c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.311e2eaa.css",
+    "static/js/main.e4338409.js"
+  ]
+}
