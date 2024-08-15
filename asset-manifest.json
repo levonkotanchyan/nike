@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nike/static/css/main.311e2eaa.css",
-    "main.js": "/nike/static/js/main.e4338409.js",
+    "main.css": "/nike/static/css/main.549d2f73.css",
+    "main.js": "/nike/static/js/main.a6337d2d.js",
     "static/js/453.993e129c.chunk.js": "/nike/static/js/453.993e129c.chunk.js",
     "static/media/jordan-high-UNC.png": "/nike/static/media/jordan-high-UNC.6ea4380754aec0679c70.png",
     "static/media/thirdWll.png": "/nike/static/media/thirdWll.ea8dcca8ec8e5356c42a.png",
@@ -31,12 +31,12 @@
     "static/media/dunk-low-retro.png": "/nike/static/media/dunk-low-retro.2947f7fcdc7bbc05f4e7.png",
     "static/media/nike-dunk-white.png": "/nike/static/media/nike-dunk-white.2cc481f7b2c249a9fc97.png",
     "index.html": "/nike/index.html",
-    "main.311e2eaa.css.map": "/nike/static/css/main.311e2eaa.css.map",
-    "main.e4338409.js.map": "/nike/static/js/main.e4338409.js.map",
+    "main.549d2f73.css.map": "/nike/static/css/main.549d2f73.css.map",
+    "main.a6337d2d.js.map": "/nike/static/js/main.a6337d2d.js.map",
     "453.993e129c.chunk.js.map": "/nike/static/js/453.993e129c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.311e2eaa.css",
-    "static/js/main.e4338409.js"
+    "static/css/main.549d2f73.css",
+    "static/js/main.a6337d2d.js"
   ]
 }
