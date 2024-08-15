@@ -1,12 +1,24 @@
 .textContent {
-    display: flex;
-    justify-content: space-around;
-    gap: 128px;
-    padding: 70px 60px;
-    background-color: #ABBB7020;
-    text-align: left;
-    h1{
-        font-size: 48px;
-        font-weight: 400;
+  display: flex;
+  justify-content: space-around;
+  gap: 128px;
+  padding: 70px 60px;
+  background-color: #abbb7020;
+  text-align: left;
+  h1 {
+    font-size: 48px;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .textContent {
+    padding: 10px 20px;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+    h1 {
+      font-size: 36px;
     }
+  }
 }

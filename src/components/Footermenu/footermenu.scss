@@ -1,21 +1,25 @@
 .footermenu {
-    display: flex;
-    background: #000;
-    color: #fff;
-    text-align: left;
-    justify-content: space-around;
-    h2{
-        font-weight: 300;
-    }
+  display: flex;
+  background: #000;
+  color: #fff;
+  text-align: left;
+  justify-content: space-around;
+  h2 {
+    font-weight: 300;
+  }
 }
 .footerMenuSection {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
-.social{
-    display: flex;
-    justify-content: space-around;
-    gap: 6px;
-
-
+.social {
+  display: flex;
+  justify-content: space-around;
+  gap: 6px;
+}
+@media screen and (max-width: 767px) {
+  .footermenu {
+    font-size: 12px;
+    flex-wrap: wrap;
+  }
 }

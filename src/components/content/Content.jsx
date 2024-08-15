@@ -7,15 +7,15 @@ import { Pagination, Navigation } from "swiper/modules";
 import data from "../data";
 import Collection from "../collection/Collection";
 import Newcollection from "../newcollection/Newcollection";
-import Football from '../../images/sports.collection/footbal.png';
-import Basketball from '../../images/sports.collection/basketball.png';
-import Tennis from '../../images/sports.collection/tennis.png';
+import Football from "../../images/sports.collection/footbal.png";
+import Basketball from "../../images/sports.collection/basketball.png";
+import Tennis from "../../images/sports.collection/tennis.png";
 import JoinClub from "../../joinClub/JoinClub";
 import TextContent from "../textContent/TextContent";
 import Clouthes from "../clouthes/Clouthes";
+import { useEffect, useState } from "react";
 
 const Content = () => {
-
   const newList = [
     {
       img: Football,
@@ -32,7 +32,18 @@ const Content = () => {
       name: "Tennis",
       category: "Sports Equipment",
     },
-  ]
+  ];
+
+  const [isMobile, setIsMobile] = useState(
+    window.matchMedia("(max-width: 767px)").matches
+  );
+
+  useEffect(() => {
+    const handleResize = () =>
+      setIsMobile(window.matchMedia("(max-width: 767px)").matches);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   return (
     <div className="content">
@@ -41,7 +52,7 @@ const Content = () => {
         <span>See all items</span>
       </div>
       <Swiper
-        slidesPerView={4}
+        slidesPerView={isMobile ? 2 : 4}
         spaceBetween={30}
         navigation={true}
         modules={[Pagination, Navigation]}
@@ -69,7 +80,7 @@ const Content = () => {
         <span>See all items</span>
       </div>
       <Swiper
-        slidesPerView={4}
+        slidesPerView={isMobile ? 2 : 4}
         spaceBetween={30}
         navigation={true}
         modules={[Pagination, Navigation]}
@@ -97,7 +108,7 @@ const Content = () => {
         <span>See all items</span>
       </div>
       <Swiper
-        slidesPerView={4}
+        slidesPerView={isMobile ? 2 : 4}
         spaceBetween={30}
         navigation={true}
         modules={[Pagination, Navigation]}

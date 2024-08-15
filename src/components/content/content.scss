@@ -1,56 +1,72 @@
-.content{
-    padding: 0 60px;
-    .newArrivals{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+.content {
+  padding: 0 60px;
+  .newArrivals {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .slider {
+    display: flex;
+    height: 80%;
+  }
+  .swiper {
+    overflow: unset;
+    overflow-x: clip;
+    .swiper-button-prev {
+      left: 248px;
+      top: -45px;
     }
-    .slider{
-        display: flex;
-        height: 80%;
+    .swiper-button-next {
+      left: 308px;
+      top: -45px;
     }
-    .swiper{
-        overflow: unset;
-        overflow-x: clip;
-        .swiper-button-prev{
-            left: 248px;
-            top: -45px;
-        }
-        .swiper-button-next{
-            left: 308px;
-            top: -45px;
-        }
-        .swiper-button-prev, .swiper-button-next{
-            color: #b3bdc9;
-            border-radius: 50%;
-            border: 1px solid gray;
-            padding: 5px 10px;
-        }
-    } 
-    .swiperDiv{
-        display:flex;
-        flex-direction: column;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        text-align: left;
-        span{
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-        span:nth-of-type(2){
-            color: #838383
-        }
+    .swiper-button-prev,
+    .swiper-button-next {
+      color: #b3bdc9;
+      border-radius: 50%;
+      border: 1px solid gray;
+      padding: 5px 10px;
     }
-    .shopSport{
-        .swiper-wrapper{
-            display: flex;
-            justify-content: space-between;
-            .swiperSlide{
-                width: 30%;
-            }
-        }
+  }
+  .swiperDiv {
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    span {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
+    span:nth-of-type(2) {
+      color: #838383;
+    }
+  }
+  .shopSport {
+    .swiper-wrapper {
+      display: flex;
+      justify-content: space-between;
+      .swiperSlide {
+        width: 30%;
+      }
+    }
+  }
 }
 
+@media screen and (max-width: 767px) {
+  .content {
+    padding: 0 20px;
+    .swiper {
+      .swiper-button-prev {
+        left: 270px;
+        top: -22px;
+      }
+      .swiper-button-next {
+        left: 330px;
+        top: -22px;
+      }
+    }
+  }
+}

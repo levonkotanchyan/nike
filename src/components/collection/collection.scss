@@ -1,34 +1,56 @@
-.collection{
-    .collectionItems{
-        display: flex;
+.collection {
+  .collectionItems {
+    display: flex;
+  }
+  .collectionItem {
+    width: 33.3%;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 50px;
+    .collectionButton {
+      width: 120px;
+      height: 65px;
+      font-size: 30px;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: "Anton", sans-serif;
     }
-    .collectionItem{
-        width: 33.3%;
-        height: 500px;
-        background-size: cover;
-        display: flex;
-        align-items: flex-end;
-        justify-content: center;
-        padding: 50px;
-        .collectionButton{
-            width: 120px;
-            height: 65px;
-            font-size: 30px;
-            background-color: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-family: "Anton", sans-serif;
-        }
-    }
-    .collectionItem1{
-        background-image: url('../../images/Womens.png');
-    }
-    .collectionItem2{
-        background-image: url('../../images/Mens.png');
-    }
-    .collectionItem3{
-        background-image: url('../../images/Kids.png');
-    }
+  }
+  .collectionItem1 {
+    background-image: url("../../images/Womens.png");
+  }
+  .collectionItem2 {
+    background-image: url("../../images/Mens.png");
+  }
+  .collectionItem3 {
+    background-image: url("../../images/Kids.png");
+  }
 }
 
+@media screen and (max-width: 767px) {
+  .collection {
+    .collectionItems {
+      .collectionButton {
+        flex-direction: column-reverse;
+      }
+      .collectionItem {
+        width: 100%;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        padding: 20px;
+        align-items: center;
+        .collectionButton {
+          width: 80px;
+          height: 40px;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}

@@ -20,3 +20,10 @@
     border-radius: 12px;
   }
 }
+@media screen and (max-width: 767px) {
+  .sliderDiv {
+    .swiper {
+      height: 40vh;
+    }
+  }
+}

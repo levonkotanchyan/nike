@@ -1,22 +1,27 @@
 .newcollection {
-    .newcollectionItems{
-        display: flex;
-        justify-content: space-around;
-        gap: 10%;
-        .newcollectionItem{
-            div{
-                width: 40vw;
-                height: 400px;
-                background-size: contain;
-                background-position: center;
-                background-repeat: no-repeat;
-            }
-            .newColNike{
-                background-image: url('../../images/Cover.png');
-            }
-            .newColCover{
-                background-image: url('../../images/Image-Nike.png');
-            }
-        }
+  .newcollectionItems {
+    display: flex;
+    justify-content: space-around;
+    gap: 10%;
+    .newcollectionItem {
+      div {
+        width: 40vw;
+        height: 400px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .newColNike {
+        background-image: url("../../images/Cover.png");
+      }
+      .newColCover {
+        background-image: url("../../images/Image-Nike.png");
+      }
     }
+  }
+}
+@media screen and (max-width: 767px) {
+  .newcollection .newcollectionItems .newcollectionItem div {
+    height: 200px;
+  }
 }
